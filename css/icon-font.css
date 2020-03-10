@@ -1,0 +1,28 @@
+
+@font-face {
+	font-family: 'iconfontcustom';
+	src:url('fonts/iconfontcustom.eot?jzaet');
+	src:url('fonts/iconfontcustom.eot?#iefixjzaet') format('embedded-opentype'),
+		url('fonts/iconfontcustom.woff') format('woff'),
+		url('fonts/iconfontcustom.ttf?jzaet') format('truetype'),
+		url('fonts/iconfontcustom.svg?jzaet#iconfontcustom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ifc-"], [class*=" ifc-"] {
+	font-family: 'iconfontcustom';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ifc-down:before {
+	content: "\e9f9";
+}

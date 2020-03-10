@@ -1,0 +1,25 @@
+button, input {
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.fe-btn-normal {
+    height: 40px;
+    color: #fff;
+    background-color: #19be6b;
+    cursor: pointer;
+}
+
+.fe-btn-normal:hover {
+    background-color: #47cb89;
+}
+
+.fe-btn-normal:active {
+    background-color: #18b566;
+}

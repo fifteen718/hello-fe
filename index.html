@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="front-end, web, html, develop, 前端, 前端开发, 前端库, 前端宝藏">
+    <meta name="description" content="【前端宝藏】前端博客、社区、资源、书籍等一站式总览！">
+    <title>前端联盟</title>
+    <!-- /// css ////////  -->
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/icon-font.css">
+    <!-- /// js ////////  -->
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">
+            前 端 联 盟
+        </div>
+        <div class="header-type-bar">
+            <label class="type-label type-label-selected">百度</label>
+            <label class="type-label">必应</label>
+            <label class="type-label">知乎</label>
+            <label class="type-label">思否</label>
+            <label class="type-label">CSDN</label>
+            <label class="type-label">GitHub</label>
+        </div>
+        <div class="header-input-bar">
+            <input id="searchInput" class="search-input" type="text" value="" placeholder="百度一下，你就知道">
+            <button id="searchButton" class="search-button fe-btn-normal">百度一下</button>
+        </div>
+        <a href="#content" class="pull-down-a">
+            <i class="ifc-down"></i>
+        </a>
+    </div>
+
+    <div class="content" id="content">
+        <div class="content-nav">
+            <div class="content-nav-list">
+                <a class="content-nav-a active-nav-a" href="#hot">热门推荐</a>
+                <a class="content-nav-a" href="#edu">教学课程</a>
+                <a class="content-nav-a" href="#talk">技术社区</a>
+                <a class="content-nav-a" href="#tool">常用工具</a>
+                <a class="content-nav-a" href="#book">好评书籍</a>
+            </div>
+        </div>
+        <div class="content-parts">
+            <div class="part" id="hot">
+                <div class="part-title">热门推荐</div>
+                <div class="part-items">
+                    <ul class="hot-ul">
+                        <li>
+                            <a target="_blank" rel="nofollow" href="http://www.alloyteam.com/2019/12/14124/">如何用原生 JS 实现一个最简单的 v-show 指令？</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="https://juejin.im/post/5e4761376fb9a07cc8459e93">记录学习微前端</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="https://blog.csdn.net/fifteen718/article/details/104200586">前端常用数据处理方法</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="https://cnodejs.org/topic/57c68052b4a3bca66bbddbdd">利用ESLint检查代码质量</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="https://zhuanlan.zhihu.com/p/27588422">从vue-router看前端路由的两种实现</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="https://www.cnblogs.com/Darren_code/archive/2011/11/24/Cookie.html">JavaScript 操作 Cookie</a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="nofollow" href="http://www.shejidaren.com/the-best-css-font-in-web-design.html">优化阅读体验，网站预设字体的CSS最佳写法</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="part" id="edu">
+                <div class="part-title">教学课程</div>
+                <div class="part-items">
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.runoob.com/">菜鸟教程</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.w3school.com.cn/">W3school</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.lvyestudy.com/">绿叶学习网</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://jsrun.pro/tutorial/">JSRUN前端教程</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://wangdoc.com/">网道</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://coding.imooc.com/?c=fe">慕课网</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.jikexueyuan.com/course/web/">极客学院</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://yun.itheima.com/course/c135.html">黑马程序员</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part" id="talk">
+                <div class="part-title">技术社区</div>
+                <div class="part-items">
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.zhihu.com/topic/19550901/hot">【知乎】前端</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://juejin.im/welcome/frontend">【掘金】前端</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.v2ex.com/go/programmer">【V2EX】程序员</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://segmentfault.com/channel/frontend">【思否】前端</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.yuque.com/search?q=%E5%89%8D%E7%AB%AF">【语雀】前端</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.oschina.net/blog?classification=428612">【OSCHINA】前端</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.daqianduan.com/">【大前端】</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://fed.taobao.org/">【淘系前端】</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://tech.youzan.com/tag/front-end/">【有赞前端】</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.alloyteam.com/">【腾讯前端】AlloyTeam</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://fex.baidu.com/">【百度前端】FEX</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://75.team/">【360前端】奇舞团</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part" id="tool">
+                <div class="part-title">常用工具</div>
+                <div class="part-items">
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://tool.oschina.net/regex/">在线正则表达测试</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.bejson.com/jsonviewernew/">JSON在线视图查看</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://tool.chinaz.com/js.aspx">JS混淆加密压缩</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://jsrun.pro/new">JS在线编辑器</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.jq22.com/">jQuery插件库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://animista.net/">Animista动画库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://colorhunt.co/">ColorHunt颜色库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.webfont.com/onlinefont/index">有字库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="http://www.lanrentuku.com/">懒人图库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.iconfont.cn/">阿里妈妈矢量图标库</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://huaban.com/">花瓣网</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://www.zcool.com.cn/">站酷</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part" id="book">
+                <div class="part-title">好评书籍</div>
+                <div class="part-items">
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/25878992/">HTML5与CSS3基础教程</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/26745943/">CSS揭秘</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/10546125/">JavaScript高级程序设计</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/6854549/">JavaScript权威指南</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/27072230/">深入理解ES6</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/26351021/">你不知道的JavaScript</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/25768396/">深入浅出Node.js</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/10746113/">HTTP权威指南</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" rel="nofollow" href="https://book.douban.com/subject/3132277/">高性能网站建设指南</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <p>本站网址来源于互联网搜索引擎和热心网友投稿，如有冒犯请即时告知站长邮箱：945449630@qq.com 万分感谢。</p>
+        <p>Copyright © 2019-2020 前端联盟</p>
+    </div>
+</body>
+</html>
